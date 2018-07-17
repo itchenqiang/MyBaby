@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@mipmap/bg_01"
+              android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv_our_first"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_margin="10dp"
+        android:src="@mipmap/our_first"/>
+
+    <TextView
+        android:id="@+id/tv_my_des"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="这是第一次和你相见，当时我就对自己说你就是我要找的人。不敢说有多么的喜欢你，
+        多么的爱你，但很确定想一直站在你的身后看着你的背影。我的姑娘很高兴遇见你！"
+        android:textSize="16sp"/>
+
+</LinearLayout>

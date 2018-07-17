@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv_01"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="5dp"
+        android:src="@mipmap/third_02"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_02"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:src="@mipmap/third_01"/>
+
+        <TextView
+            android:id="@+id/tv_my_des"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="这是我们第一次合影，也是第一次逛那个自然公园。
+            陪你走过夜路的人有很多，但我是一直陪的那个人。那天的我很开心，很兴奋，
+            正确的时间遇到正确的你。愿你陪你走过每个春夏秋冬，我们的第一个冬天开始。
+            宝宝我爱你，从这开始我在不断地犯错误，但是我在努力减少犯错误，宝宝我不会再大声和你说话，
+            宝宝你永远是我的可爱猪，我怎么会舍得再去和你吵架。爱你的智障！"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
