@@ -14,6 +14,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="5dp"
         android:orientation="horizontal">
 
         <ImageView
@@ -27,6 +29,7 @@
             android:id="@+id/tv_my_des"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
             android:layout_weight="1"
             android:text="这是我们第一次合影，也是第一次逛那个自然公园。
             陪你走过夜路的人有很多，但我是一直陪的那个人。那天的我很开心，很兴奋，

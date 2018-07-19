@@ -20,6 +20,7 @@
         <activity android:name=".FirstMeetActivity"/>
         <activity android:name=".SecondMeetActivity"/>
         <activity android:name=".ThirdActivity"/>
+        <activity android:name=".HuanLeGuActivity"/>
 
         <service android:name=".PlayingMusicServices"/>
     </application>
